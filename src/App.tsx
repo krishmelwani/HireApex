@@ -31,7 +31,7 @@ const queryClient = new QueryClient();
 
 function Router() {
   const [location] = useLocation();
-  const isAdminRoute = location === "/login" || location === "/admin-dashboard" || location === "/edit";
+  const isAdminRoute = location.startsWith("/login") || location.startsWith("/admin-dashboard") || location.startsWith("/edit");
 
   if (isAdminRoute) {
     return (
