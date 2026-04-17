@@ -1,0 +1,12 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="180" height="180" rx="38" fill="#0F1F4B"/>
+  <rect width="180" height="180" rx="38" fill="url(#bgGrad)" opacity="0.15"/>
+  <path d="M44 40 L44 140 L66 140 L66 100 L114 100 L114 140 L136 140 L136 40 L114 40 L114 80 L66 80 L66 40 Z" fill="white"/>
+  <rect x="66" y="83" width="48" height="14" rx="2" fill="#F97316"/>
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1E6FFF"/>
+      <stop offset="100%" stop-color="#0F1F4B"/>
+    </linearGradient>
+  </defs>
+</svg>
