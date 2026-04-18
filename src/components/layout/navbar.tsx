@@ -4,7 +4,7 @@ import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { MagneticButton } from "@/components/ui/magnetic-button";
 import { motion, AnimatePresence } from "framer-motion";
-import hireApexLogo from "@/assets/hireapex-logo-transparent.png";
+import hireApexLogo from "@/assets/logo-full.png";
 
 const links = [
   { label: "Home", href: "/" },
@@ -24,7 +24,7 @@ export function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link href="/" className="flex items-center space-x-2" data-testid="link-home-logo">
-            <img src={hireApexLogo} alt="HireApex" className="h-9 w-auto object-contain" />
+            <img src={hireApexLogo} alt="HireApex" className="h-10 w-auto object-contain" />
           </Link>
 
           {/* Desktop Nav */}
