@@ -1,5 +1,5 @@
 import { Link } from "wouter";
-import hireApexLogo from "@/assets/hireapex-logo-transparent.png";
+import hireApexLogo from "@/assets/logo-full.png";
 import { useContent } from "@/contexts/ContentContext";
 
 export function Footer() {
